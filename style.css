@@ -21,16 +21,30 @@ h1 {
     border: solid 2px #212427;
 
     display: flex;
-    justify-content: flex-start;
+    justify-content: space-between;
     align-items: flex-start;
-    flex-direction: row;
+    flex-direction: column;
 }
+
 
 .filho {
     width: 80px;
     height: 80px;
     border-radius: 50px;
     text-align: center;
+}
+
+.pai #caixa3 {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+
+}
+
+.pai #caixa2 {
+    display: flex;
+    align-self: flex-end;
+    justify-content: center;
 }
 
 .cor1 {
